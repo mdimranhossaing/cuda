@@ -17,7 +17,6 @@ body {
 
 /* Header area css code start */
 #header-area {
-  padding: 60px 0 145px;
   background-color: #87519D;
 }
 
@@ -25,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 60px;
 }
 
 .navbar .logo img {
@@ -57,5 +57,36 @@ body {
 
 .main-menu li a:hover {
   background-color: #643a79;
+}
+
+.hero-area {
+  text-align: center;
+  padding: 145px 0;
+}
+
+.hero-area .page-title {
+  color: white;
+  width: 80%;
+  margin: 0 auto 60px;
+  line-height: 1.2em;
+  font-size: 42px;
+}
+
+.hero-area .btn {
+  display: inline-block;
+  background-color: #eb7d4b;
+  padding: 25px 60px;
+  border-radius: 5px;
+  border-bottom: 4px solid #c86a40;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.hero-area .btn:hover {
+  background-color: #c86a40;
+  border-color: #eb7d4b;
 }
 /* Header area css code end */
